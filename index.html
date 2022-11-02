@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+</head>
+
+<body>
+    <!-- <h1>Moment.js Installation</h1> -->
+    <script src="lib/moment/moment.min.js"></script>
+
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+        <h3 id='today'></h3>
+    </header>
+    <div class="container">
+        <!-- Timeblocks go here -->
+
+        <div id="06" class="row time-block">
+            <div class="col-md-1 hour">6am</div>
+            <textarea id="task0" class="col-md-10 description"> </textarea>
+            <button id="btn1" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+
+        <div id="07" class="row time-block">
+            <div class="col-md-1 hour">7am</div>
+            <textarea id="task1" class="col-md-10 description"> </textarea>
+            <button id="btn2" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="08" class="row time-block">
+            <div class="col-md-1 hour">8am</div>
+            <textarea id="task2" class="col-md-10 description"> </textarea>
+            <button id="btn3" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="09" class="row time-block">
+            <div class="col-md-1 hour">9am</div>
+            <textarea id="task3" class="col-md-10 description"> </textarea>
+            <button id="btn4" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="10" class="row time-block">
+            <div class="col-md-1 hour">10am</div>
+            <textarea id="task4" class="col-md-10 description"> </textarea>
+            <button id="btn5" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="11" class="row time-block">
+            <div class="col-md-1 hour">11am</div>
+            <textarea id="task5" class="col-md-10 description"> </textarea>
+            <button id="btn6" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="12" class="row time-block">
+            <div class="col-md-1 hour">12pm</div>
+            <textarea id="task6" class="col-md-10 description"> </textarea>
+            <button id="btn7" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="13" class="row time-block">
+            <div class="col-md-1 hour">1pm</div>
+            <textarea id="task7" class="col-md-10 description"> </textarea>
+            <button id="btn8" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="14" class="row time-block">
+            <div class="col-md-1 hour">2pm</div>
+            <textarea id="task8" class="col-md-10 description"> </textarea>
+            <button id="btn9" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="15" class="row time-block">
+            <div class="col-md-1 hour">3pm</div>
+            <textarea id="task9" class="col-md-10 description"> </textarea>
+            <button id="btn10" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="16" class="row time-block">
+            <div class="col-md-1 hour">4pm</div>
+            <textarea id="task10" class="col-md-10 description"> </textarea>
+            <button id="btn11" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+
+        <div id="17" class="row time-block">
+            <div class="col-md-1 hour">5pm</div>
+            <textarea id="task11" class="col-md-10 description"> </textarea>
+            <button id="btn12" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+        <div id="18" class="row time-block">
+            <div class="col-md-1 hour">6pm</div>
+            <textarea id="task12" class="col-md-10 description"> </textarea>
+            <button id="btn13" class="col-md-1 saveBtn"><span class="material-symbols-outlined">
+                    save</span> </button>
+
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="./script.js"></script>
+</body>
+
+</html>
